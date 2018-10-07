@@ -1,0 +1,7 @@
+########### ML ##################
+#################################
+1- Learn A Language best is Python3
+2- Learn python library 
+	1-Matplotlib
+	2-Pandas
+	

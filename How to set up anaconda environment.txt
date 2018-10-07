@@ -1,0 +1,6 @@
+how to create and setting up environment 
+1- open anaconda prompt
+2- go to you make folder
+3- conda create --name project_name
+4- activate project_name
+5- conda install --name project_name spyder

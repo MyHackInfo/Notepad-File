@@ -1,0 +1,13 @@
+For Atom = platformio-ide-terminal,atom runner
+
+Web site for learning programing
+1-www.programiz.com
+2-www.geeksforgeeks.org
+3-www.sitepoint.com
+4-https://www.appcoda.com/            for iso/app
+5-https://www.ios-blog.com/
+6-http://www.codingexplorer.com/
+7-https://dmitripavlutin.com              for javascript
+8-https://turbofuture.com                  for learn about CS
+9-https://www.learnpython.org/
+10-templetmonster.com

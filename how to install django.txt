@@ -1,0 +1,36 @@
+1- open cmd 
+2- python --version
+3- pip --version
+4- pip install virtualenvwrapper-win (its take time for installed)
+5- make dir -mkvirtualenv name
+6- and install django -pip install django
+
+	===start django project
+7-after install django -django-admin startproject name_project
+8-set this folder in your text-editer like-atom
+9-run the server -python manage.py runserver
+10-127.0.0.1:8000 type in your brower and confirm its working django
+	===start django apps
+11-create app -python manage.py startapp app_name
+	===sqlclient
+12-install server of database -pip install mysqlclient
+ and create database on dbserver 
+-------code /*DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'django_db',
+        'USER':'root',
+        'PASSWORD':'',
+        'HOST':'localhost',
+        'PORT':''
+    }
+-------}*/
+	===For Models
+13- Migrate -python manage.py migrate
+14-Models are use for create table in database 
+   first-create models and type in cmd
+	*python manage.py makemigration
+	*python manage.py migrate
+
+
+

@@ -1,0 +1,33 @@
+8-9=Python Hacking
+9-10=Advanced Python
+10-11=Algoritham in python
+11-1=Sendex Matplotlib, after that others
+1-2=C on Geeksforgeek.org
+2-3=C++ on Geeksforgeek.org
+3-4=Python on Geeksforgeek.org
+4-6=Machine Learning
+6-7= Algoritham on geeksforgeek.org
+
+
+update 8-9 2018
+8-10= python advanced
+10-12= sendex for pandas
+12-2= python on geeksforgeeks
+
+3-5= machine learning
+5-7 = algoritham
+
+8-10= R or data science	
+
+
+12-8-2018
+1=>	8-10=	sendex any folder [Scikit]
+2=>	10-12= 	sendex any folder [Pandas library]
+3=>	12-2= 	geekforgees
+4=> 	2-4=	datacamp  online R
+5=>	4-7=	Machine learning
+6=>	8-10	data science [R]
+
+
+
+

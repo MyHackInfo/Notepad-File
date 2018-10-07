@@ -1,0 +1,96 @@
+How to use git for configration 
+git config --global user.name " name "
+git config --global user.email "emailaddress"
+ 
+
+git init projectName
+cd projectName
+la -al (master)
+git status
+mate README.md
+
+git remote -v
+git push -u origin master --tags
+
+# copy data 
+cp -R ~/Download/* .
+ls -al
+
+git status
+git add .
+git status
+git commit -m "add all text file"
+git push origin master
+git push 
+
+git config --global push.default simple
+git push
+
+
+# create local branch on system
+git checkout -b branch-name
+
+
+# Remove file on git
+git rm file-name
+ls -l
+git commit -m "remove file"
+git status
+
+# push on other new brach on github
+git push -u origin branch-name
+
+
+
+# use after change local and github machine
+git fatch
+git pull
+ls -al # see all file 
+
+
+# How to create new branch 
+git checkout -b Brach_Name
+
+# Push code on switching Brach
+git push -u origin Brach_Name
+
+
+
+
+###############################
+1- git clone "here url of clone"
+2-ls -l
+3- cd "Your clone reo folder"
+4-ls -l
+5-git remote -v
+6-git status
+7-git add .
+8-git status
+9-git commit -m "Here message"
+10-git push origin master
+11-go on github web and refresh you reposity
+############################################
+
+
+
+# How to use git for github
+git state    ( Working directory area file)	
+git add.    (this command can do stage area file)
+git commit -m "Here put you message"    (this is you save file stage on git)
+git log   (this command use for see who change and update something this project)
+git push origin master (this use for put stage area to git repositry save on github web)
+git pull      (this use for any update on your github web to save on your working local directory)
+
+git diff  fileName ( this command show modified: fileName text what modified in this file) 
+git diff staged (this use show and see stage area what modified
+
+git reset fileName (this command use for unStaged for file) 
+
+
+
+# Enter your Information on git
+git config --global user.name "YourName"
+git config --global user.email "YourEmail"
+
+
+

@@ -1,0 +1,76 @@
+______________________________________________________________________________
+_____________!@#$%^&* """" Python GUI Programing"""*&^%$#@!_____________________
+______________________________________________________________________________
+
+
+	1= Operations using tkinter
+		1-create windows (tkinter, Tk())
+		2-Other Methods(title,geometry,mainloop)
+		3-Label class#tkinter.Label (text,fg,bg,).pack()
+		4-Lable class # Methods(.pack,.place(x,y),.grid                                                                                                        (row,column,sticky),.config)
+
+		          Note:__________________________________
+			       1-"tkinter" It is Module
+	 		                1-"Tk()" It is class of tkinter module
+				       1-"title" It is Method of Tk() class
+				       2-"geometry()" It is Method of Tk() class
+				       3-"mainloop()" It is Method of Tk() class 
+			                2-"Label()"It is class of tkinter module
+				       1-"text=" is method 
+				       2-"fg=" is method 
+				       3-"bg=" is method
+				       4-"font=" is method
+				       5-"command=" is method
+				       6-"place()" is method
+				       7-"grid()" is method
+				       8-"pack()" is method
+				
+
+	2=Buttonsand Text Box
+		5=Button class Methods(.pack,.place(x,y),.grid(row,column)
+		6=Button class Methods(command=functionname)create function
+		7=Text=Entry().pack()#get() use 
+		8=Two Window ( work change)
+		
+			      Note:_________________________
+				1-"Button()" is class of tkinter module
+				       1-"text=" is method 
+				       2-"fg=" is method 
+				       3-"bg=" is method
+				       4-"font=" is method
+				       5-"command=" is method
+				       6-"place()" is method
+				       7-"grid()" is method
+				       8-"pack()" is method
+				2-"Entry()" is class of tkinter module
+				       1-"textvariable=" is method 
+				       2-"get()" is method
+				       3-"set()" is method
+
+	3=Menu Bar
+		9=Menu class Methods(add_cascade(label='text')
+			winname.config(menu=menuobj)
+		10=Sub menu Methods(add_command(label='text')
+			(label='File', menu=listname)
+		11= Sub list Menu Functionality
+			add.command(label='New File' , command= Functioncall) 
+		12=Font change ( Font('font type', size , 'font style' ))
+		
+		
+			 Note:-_______________
+				1-"Menu()" is the class of tkinter mo	
+					1-"add_cascade" is method
+					2-"add_command" is method
+					3-"config" is method 
+
+	4=MessageBox and Extras
+		13=Messagebox(messagebox.showinfo(title='save',message='are you sure to                                                                                                                                                               save')
+			        (messagebox.askyesno{askyesno is give value 1 and store in 				variable}(title='quit',message='are you sure to quit')
+				if variable ==1: win.destroy()
+					
+
+	7=Entry class
+		a=Entry(width,textvariable)
+		a.insert(0,variable)
+		a.delete(0,END)
+		               2-textvariable
