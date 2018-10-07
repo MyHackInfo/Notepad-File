@@ -1,3 +1,6 @@
+
+##########################################
+##########################################
 How to use git for configration 
 git config --global user.name " name "
 git config --global user.email "emailaddress"
@@ -12,10 +15,15 @@ mate README.md
 git remote -v
 git push -u origin master --tags
 
+####################################################
+####################################################
+
 # copy data 
 cp -R ~/Download/* .
 ls -al
 
+
+#############################################
 git status
 git add .
 git status
@@ -26,11 +34,14 @@ git push
 git config --global push.default simple
 git push
 
+#######################################
 
 # create local branch on system
 git checkout -b branch-name
 
 
+
+#####################################
 # Remove file on git
 git rm file-name
 ls -l
@@ -40,7 +51,7 @@ git status
 # push on other new brach on github
 git push -u origin branch-name
 
-
+##############################################
 
 # use after change local and github machine
 git fatch
@@ -48,16 +59,28 @@ git pull
 ls -al # see all file 
 
 
-# How to create new branch 
-git checkout -b Brach_Name
+#######################################################
+##### How to create new branch  #######################
 
-# Push code on switching Brach
-git push -u origin Brach_Name
+git branch   ((  # list of brach))
+
+git branch branchName   (( create new branch ))
+
+git checkout -b Brach_Name (( Switched branch ))
+
+git merge BranchName    ((( this command use for merge two branch ))
+
+git push origin --delete BranchName   ((( this command use for delete branch both location local and github ))
+
+git branch -d BranchName    ( this command use for delete branch local System ))
 
 
+git push -u origin Brach_Name  (( this command use for push you code on switched branch )))
+
+###############################################################
 
 
-###############################
+############################### Use of Clone and work perform ##########################
 1- git clone "here url of clone"
 2-ls -l
 3- cd "Your clone reo folder"
@@ -73,7 +96,8 @@ git push -u origin Brach_Name
 
 
 
-# How to use git for github
+##################################################
+# How to use git for github for working task
 git state    ( Working directory area file)	
 git add.    (this command can do stage area file)
 git commit -m "Here put you message"    (this is you save file stage on git)
@@ -86,11 +110,20 @@ git diff staged (this use show and see stage area what modified
 
 git reset fileName (this command use for unStaged for file) 
 
+######################################################
+
+
+###############################################
+# Staging basics in git
+git add -A   (stages all)
+git add .    (stages new and modified, without deleted)
+git add -u   (stages modified and deleted , without new)
 
 
 # Enter your Information on git
 git config --global user.name "YourName"
 git config --global user.email "YourEmail"
 
+#######################################################
 
 
