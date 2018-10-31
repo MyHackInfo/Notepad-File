@@ -62,11 +62,15 @@ ls -al # see all file
 #######################################################
 ##### How to create new branch  #######################
 
+git branch -a   ((  # list of brach))
+
 git branch   ((  # list of brach))
 
-git branch branchName   (( create new branch ))
+git branch branchName   (( create new branch only ))
 
-git checkout -b Brach_Name (( Switched branch ))
+git checkout -b Brach_Name (( first create branch and Switched in branch ))
+
+git checkout Brach_Name (( Switched branch only ))
 
 git merge BranchName    ((( this command use for merge two branch ))
 
@@ -76,6 +80,8 @@ git branch -d BranchName    ( this command use for delete branch local System ))
 
 
 git push -u origin Brach_Name  (( this command use for push you code on switched branch )))
+
+git push origin :BranchName  (( this commannd use for update on github to local delete branch )))
 
 ###############################################################
 
@@ -100,8 +106,14 @@ git push -u origin Brach_Name  (( this command use for push you code on switched
 # How to use git for github for working task
 git state    ( Working directory area file)	
 git add.    (this command can do stage area file)
-git commit -m "Here put you message"    (this is you save file stage on git)
+git commit -m "Here put you message"    (this is you save file stage to on git)
 git log   (this command use for see who change and update something this project)
+
+## commit ##
+git log --oneline   (this command use for see commit who change and update something this project in Oneline)
+git log --oneline --graphs  (this command use for see who change and update something this project in graphs)
+git log --oneline --decorate
+
 git push origin master (this use for put stage area to git repositry save on github web)
 git pull      (this use for any update on your github web to save on your working local directory)
 
@@ -111,6 +123,26 @@ git diff staged (this use show and see stage area what modified
 git reset fileName (this command use for unStaged for file) 
 
 ######################################################
+
+
+#################################################
+##  Tags use #######  Two types of tags (Light Weate tag => this is simple not store any info only tagName) 
+##       and (Anotete tags => this is store tag name and info in message)  ###
+git tag    (( give list of all tags you create))
+
+git tag TagName BranchName  (( this use for create first type of tag light weate tag ))
+git tag -a TagName -m "Message of tag"  (( this use for create second type of tag -a(mean anotete)))
+git tag    (( give list of all tags you create))
+
+git pull    (( this is not update tag on github )
+git push origin TagsName   (( this update tag on github only one ))
+git push --force origin TagName (( if the tag is alread in github page its create new and replace old))
+git push --tags       (( this use for updata all tags on github ))
+
+git fetch -p
+git tag -d TagName   (( this is use for delete the tag
+git push origin :TagName   (( this is use for update delete tag info on github its delete its))
+
 
 
 ###############################################
@@ -126,4 +158,7 @@ git config --global user.email "YourEmail"
 
 #######################################################
 
+################
+When you try to see any file Content text 
+cat fileName
 
