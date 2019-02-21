@@ -34,3 +34,50 @@
 
 
 
+
+###########################################################
+##### How To Set Django Setup and Virtual env #############
+1-> mkdir file_name
+2-> cd file_name
+3-> virtualenv -p python .	(other way are down)
+4-> dir
+5-> .\Scripts\activate		(this use for your virtualen are activatetion on windows) /deactivate
+6-> pip install django==2.0.7	(this for django setup )
+7-> pip freeze 			( this use for see other library )
+
+#### Other Way to create virtual env
+virtualenv name_virtual
+virtualenv name_virtual -p python/python_path
+virtualenv . -p python
+
+## all this think use for create virtual envirment for django 
+##########################################################
+
+##################################################
+### Creating your django project #############$$$
+
+django-admin startproject project_name	(this use for create project )
+python manage.py runserver 		(this use for runserver)
+
+#################################################
+
+######################################################
+#### Adding you fav text editor which you like #########
+#########################################################
+
+
+####################################################
+1-> settings.py file are main focus to see
+2-> python manage.py migrate		(this use for migrate database to django(database+django = working Position) )
+##################################################
+
+########################################################
+########### Django Apps ################
+1-> python manage.py createsuperuser		(this use create super user (narsi/narsi@123) 
+
+
+
+
+
+
+
